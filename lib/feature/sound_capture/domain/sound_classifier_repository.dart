@@ -1,5 +1,9 @@
 // Abstract repository for sound classification
 
 abstract class SoundClassifierRepository {
-  // TODO: Define contract for sound classification
-} 
+  Future<String> classifySound(String audioFilePath);
+  Future<bool> startRecording();
+  Future<String?> stopRecording();
+  Future<List<String>> getAvailableSoundTypes();
+  Future<Map<String, double>> getConfidenceScores(String audioFilePath);
+}
