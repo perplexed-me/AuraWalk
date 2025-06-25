@@ -209,4 +209,4 @@ flutter build ios --release  # iOS
 
 ## License
 
-This project is licensed under the MIT License.
+This project is done with the help of AI tools by `perplexed-me`
